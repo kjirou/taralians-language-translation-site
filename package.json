@@ -8,6 +8,7 @@
     "dev": "next dev",
     "export": "next export",
     "lint": "next lint",
+    "serve-site-in-development": "serve ./out",
     "start": "next start"
   },
   "dependencies": {
