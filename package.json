@@ -8,6 +8,8 @@
     "dev": "next dev",
     "export": "next export",
     "lint": "next lint",
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write .",
     "serve-site-in-development": "serve ./out",
     "start": "next start"
   },
