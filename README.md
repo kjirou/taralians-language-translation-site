@@ -1,3 +1,7 @@
+# taralians-language-translation-site
+
+![run-tests](https://github.com/kjirou/taralians-language-translation-site/actions/workflows/run-tests.yml/badge.svg)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

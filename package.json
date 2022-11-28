@@ -3,10 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
+    "deploy:development": "npm run build && npm run export",
+    "dev": "next dev",
+    "export": "next export",
+    "lint": "next lint",
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write .",
+    "serve-site-in-development": "serve ./out",
     "start": "next start",
-    "lint": "next lint"
+    "typecheck": "tsc"
   },
   "dependencies": {
     "@types/node": "18.11.9",
@@ -18,5 +24,9 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.3"
+  },
+  "devDependencies": {
+    "prettier": "2.8.0",
+    "serve": "^14.1.2"
   }
 }
