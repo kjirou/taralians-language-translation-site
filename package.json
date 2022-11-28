@@ -11,7 +11,8 @@
     "prettier:check": "prettier --check .",
     "prettier:write": "prettier --write .",
     "serve-site-in-development": "serve ./out",
-    "start": "next start"
+    "start": "next start",
+    "typecheck": "tsc"
   },
   "dependencies": {
     "@types/node": "18.11.9",
