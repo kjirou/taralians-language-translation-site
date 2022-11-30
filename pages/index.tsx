@@ -12,6 +12,10 @@ type TranslationDirection =
   | "englishToTaralians"
   | "taraliansToEnglish";
 
+const siteTitle = "ﾋｮｳｼﾞｭﾝｺﾞﾊﾜｶﾙｶ?";
+const siteShortDescription = "英タ翻訳サイト";
+const siteLongDescription = "英語とタラール語の相互翻訳サイト";
+
 const translateRawText = (
   rawText: string,
   translationDirection: TranslationDirection
@@ -81,17 +85,18 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>ﾋｮｳｼﾞｭﾝｺﾞﾊﾜｶﾙｶ? - 英タ翻訳サイト</title>
-        <meta
-          name="description"
-          content="ﾋｮｳｼﾞｭﾝｺﾞﾊﾜｶﾙｶ? - 英語とタラール語の相互翻訳サイト"
-        />
+        <title>
+          {siteTitle} - {siteShortDescription}
+        </title>
+        <meta name="description" content={siteLongDescription} />
+        <meta property="og:title" content={siteTitle} />
+        <meta property="og:description" content={siteLongDescription} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>ﾋｮｳｼﾞｭﾝｺﾞﾊﾜｶﾙｶ?</h1>
-        <p className={styles.description}>英語とタラール語の相互翻訳サイト</p>
+        <h1 className={styles.title}>{siteTitle}</h1>
+        <p className={styles.description}>{siteLongDescription}</p>
         <div className={styles.grid}>
           <section className={styles.card}>
             <h2>ｺﾚｶﾞﾜｶﾗﾅｲ</h2>
