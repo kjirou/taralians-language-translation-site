@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "deploy:development": "npm run build && npm run export",
+    "deploy": "npm run build && npm run export",
     "dev": "next dev",
     "export": "next export",
     "lint": "next lint",
