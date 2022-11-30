@@ -1,6 +1,7 @@
 # taralians-language-translation-site
 
 ![run-tests](https://github.com/kjirou/taralians-language-translation-site/actions/workflows/run-tests.yml/badge.svg)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6b6f3b86-325a-4dfe-a6fa-5cfd86cd1478/deploy-status)](https://app.netlify.com/sites/beamish-rabanadas-ce5687/deploys)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
