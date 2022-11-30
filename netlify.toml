@@ -1,0 +1,12 @@
+[build]
+command = "npm run deploy"
+publish = "out"
+
+# Refs)
+# - https://github.com/netlify/next-runtime#use-with-next-export
+# - https://github.com/netlify/next-runtime/blob/63e060df7d3851c5dafae60d4790c2f34d47ed80/demos/next-export/netlify.toml
+[build.environment]
+NETLIFY_NEXT_PLUGIN_SKIP = "true"
+
+[[plugins]]
+package = "@netlify/plugin-nextjs"
