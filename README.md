@@ -1,7 +1,7 @@
 # taralians-language-translation-site
 
 ![run-tests](https://github.com/kjirou/taralians-language-translation-site/actions/workflows/run-tests.yml/badge.svg)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6b6f3b86-325a-4dfe-a6fa-5cfd86cd1478/deploy-status)](https://app.netlify.com/sites/beamish-rabanadas-ce5687/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6b6f3b86-325a-4dfe-a6fa-5cfd86cd1478/deploy-status)](https://app.netlify.com/sites/taralians-translator/deploys)
 
 「ロマンシング サ・ガ」または「ロマンシング サガ ミンストレルソング」に登場する架空の言語であるタラール語の翻訳サイトです。
 
